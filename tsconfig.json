@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "build",
+    "module": "commonjs",
+    "strict": true,
+    "target": "es6",
+    "resolveJsonModule": true
+  },
+  "include": ["src/"]
+}

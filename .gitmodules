@@ -1,0 +1,3 @@
+[submodule "future-contracts"]
+	path = future-contracts
+	url = https://github.com/de-games/future-contracts

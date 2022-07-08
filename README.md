@@ -1,4 +1,4 @@
-# future-backend-node
+# Kholand Backend
 
 ## Fetch all code with submodules
 ```
@@ -66,23 +66,6 @@ heroku container:push web
 Deploy the changes
 ```
 heroku container:release web
-```
-
-## Endpoints
-### Users - get list
-```
-curl --location --request GET 'http://127.0.0.1:8888/v1/users'
-```
-
-### Users - register/create
-```
-curl --location --request POST 'http://127.0.0.1:8888/v1/users' \
---header 'Content-Type: application/json' \
---data-raw '{
-    "publicAddress":"0x12345678",
-    "email": "test@gmail.com"
-
-}'
 ```
 
 

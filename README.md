@@ -1,6 +1,9 @@
 # Kholand Backend
 
-## Fetch all code with submodules
+See documentation and project report [here](https://github.com/AnshulShringi/kholand_backend/tree/master/docs).
+
+
+### Fetch all code with submodules
 ```
 git submodule init
 git submodule update --recursive --remote
@@ -50,7 +53,7 @@ docker run -e POSTGRES_PASSWORD=demopassword -e POSTGRES_USER=demouser -e POSTGR
 ```
 
 
-## Deployment
+### Deployment
 Current deployment is set for Heroku. Git submodules is not supported in Heroku, so we deploy via Docker.
 Before deployment, make sure submodule is properly loaded.
 
